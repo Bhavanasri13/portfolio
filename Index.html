@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/474c6d9ba8.js" crossorigin="anonymous"></script>
+</head>
+    <div id="header">
+        
+    <div  class="container">
+      <nav>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experiencematters">Experience</a></li>
+            <li><a href="#skillsmatters">Skills</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact" >Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li><p><i class="fa-regular fa-envelope random" ></i>&nbsp;&nbsp;bhavanasriharshitha123@gmail.com</p></li>
+            <li><p><i class="fa-solid fa-phone"></i>+8647657704</p></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <p class="menu" onclick="openmenu()" ><i class="fa fa-bars"></i></p>
+       </nav>
+       
+
+       <div  class="header-text">
+                <h1>Hi, I'm <span>Sri Harshitha</span><br>Bhavana</h1>
+                <p class="content">Software Engineer | Driving Impact with Data & Machine Learning | Ex-E&Y | Ex-Cognizant | MS CS ’25 @ Clemson</p>
+        </div>
+        <a href="/Users/lakshmanbhavana/Desktop/Harshitha_resumee.pdf" download class="btn btn2">Download CV</a>
+       </div>
+    </div>
+
+    <!-- About -->
+    <section>
+        <div id="about">
+            <div class="container">
+                
+                <div class="row">
+                    
+                    <div class="about-col-1">
+                        <img src="/Users/lakshmanbhavana/Desktop/harshitha_profilepic.jpeg">
+                    </div>
+                    
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="about-me">Software Engineer with experience in building data engineering pipelines, deploying ML models and developing scalable cloud-native
+                            applications. Skilled in Python, Java and cloud technologies including GCP, AWS and Azure. Proven track record of delivering data-driven
+                            solutions in multiple domains, improving system performance and decision-making through automation and predictive modeling.</p>
+                        </p>
+                        <!-- <div class="tab-title">
+                            
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            
+                        </div> -->
+                        
+                        <!-- <div class="tab-contents" id="education"> -->
+                            <div id="edu">
+                                <h1>Education</h1>
+                            <ul>
+                                <li><span>August 2023–May 2025</span><br>Clemson University | Master of Science, Computer Science (GPA:3.65)</li>
+                                <li><span>July 2018–May 2022</span><br>KL University | Bachelor of Technology, Computer Science (GPA:3.55)</li>
+                            </ul>  
+                            </div>          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- <div class="tab-contents" id="experience"> -->
+    <div class="experiencematters" id="experiencematters">
+        <div>
+            <h1>Experience</h1>
+            <ul>
+            <li><span>Software Engineer Intern - Heartland Community Network Raleigh</span><br><span class="date"> July 2025 – Present</span><br> 
+                <div class="exdesc">
+                    <ul>
+                        <li>Backend & Platform Development: Design and implement scalable backend services in Python to support a cloud-native healthcare platform.
+                            Build and maintain secure APIs, optimize service performance, and automate data extraction and ingestion workflows into BigQuery for real-
+                            time application use cases.</li>
+                        <li>Full-Stack Development & System Integration: Collaborate on both frontend and backend components to integrate data services with user-
+                            facing applications. Develop and enhance features for internal dashboards using Tableau, streamline cloud deployments via SSH on Linux VMs,
+                            and ensure system reliability, scalability and maintainability.</li>
+                        </ul>
+                </div>
+            </li>
+
+            <li><span>InfoEd Programming Assistant - Clemson University</span><br> <span class="date"> January 2025 – May 2025</span><br> 
+                <div class="exdesc">
+                    <ul>
+                        <li>Led the transition from paper-based research review processes to web services for three research departments, developing backend services
+                            using Java and Spring MVC, and building the frontend with React, reducing administrative efforts and improving approval times by 70%.</li>
+                        <li>Leveraged Python and Tableau to analyze and visualize large-scale datasets, enhancing research review efficiency by 45% through advanced
+                            data analytics techniques.</li>
+                    </ul>
+                </div>
+            </li>
+            <li><span>Software Engineer - Ernst and Young LLP</span><br> <span class="date">March 2024-June 2024 </span><br> 
+                <div class="exdesc">
+                    <ul>
+                        <li>Security Enhancement and System Integration: Led backend development efforts to strengthen system security, resolving OWASP and Fortify
+                            vulnerabilities, resulting in a 20% reduction in security issues. Migrated monolithic applications to Azure microservices and integrated
+                            standalone modules into core infrastructure through strategic API management and CI/CD automation using GitHub Actions, cutting
+                            deployment cycles by 40%.</li>
+                        <li>Performance Optimization and Quality Assurance: Optimized backend and database performance, boosting system speed by 25% through
+                            memory and query optimization. Developed and deployed 10+ enterprise modules using Java, Spring Boot and REST APIs, while implementing
+                            QA testing and performance tuning, improving delivery time by 30% and overall system throughput by 35%.</li>
+                    </ul>
+                </div>
+            </li>
+            <li><span> Data Engineer Intern - Cognizant Technology Solutions</span><br><span class="date">February 2022–June 2022</span> <br> 
+                <div class="exdesc">
+                    <ul>
+                        <li>Data Engineering & ML Pipeline Development: Designed and implemented end-to-end data processing pipelines using Python, SQL, and
+                            Databricks to clean, transform, and standardize large healthcare and finance datasets. Developed automated ETL workflows and feature
+                            engineering steps to support downstream ML models and reporting layers.</li>
+                        <li>Machine Learning Integration & Visualization: Built and trained regression and classification models to extract actionable business insights,
+                            improving forecast accuracy by 20%. Integrated model outputs into interactive dashboards (Power BI) and automated daily reporting
+                            processes, reducing manual effort by 35% and accelerating decision-making.</li>
+                    </ul>
+                </div>
+            </li>
+            </ul>            
+        </div>
+    </div>
+    <!-- <div class="tab-contents active-tab" id="skills"> -->
+    <div class="skillsmatters" id="skillsmatters">
+        <div>
+            <h1>Skills</h1>
+            <ul>
+                <li><span>Language:</span><br>Java, Python, C, C++, TypeScript, JavaScript, SQL</li>
+                <li><span>Frontend:</span><br>SReact, Angular, Flutter, HTML5, CSS3, WebSocket, Postman</li>
+                <li><span>Backend & APIs:</span><br>Spring Boot, Spring MVC, Node.js, Ruby on Rails, RESTful APIs</li>
+                <li><span>Databases & Cloud:</span><br>MySQL, PostgreSQL, MongoDB, AWS (S3, EC2), GCP, Azuree</li>
+                <li><span>DevOps & Tools:</span><br>Docker, Kubernetes, Jenkins, GitHub Actions</li>
+                <li><span>Security:</span><br>JWT, OAuth 2.0, TLS/SSL, OWASP, Fortify, Bcrypt</li>
+                <li><span>Machine Learning & Data:</span><br>TensorFlow, scikit-learn, NLP, Apache Spark, Databricks, Power BI</li>
+            </ul>              
+        </div>
+    </div>
+<!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/Users/lakshmanbhavana/Downloads/Gemini_Generated_Image.png" width="80%" >
+                <div class="layer">
+                    <h3>Insurance Premium Prediction using Machine Learning </h3>
+                    <p> Designed and trained regression and tree-based models with 20+ engineered features, achieving 92% R² accuracy and reducing premium estimation time by 60%. Deployed the model as REST APIs on AWS, enabling real-time predictions for over 1,000 test cases.</p>
+                    <a href="https://github.com/Bhavanasri13/insurance-premium-prediction"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Users/lakshmanbhavana/Downloads/Gemini_Generated_Image_villa.png"  height="70%">
+                <div class="layer">
+                    <h3>Villa Real Estate Web Application</h3>
+                    <p> Developed a responsive property platform with React.js (frontend) and Flask/MySQL (backend). Optimized property search and map-based listing
+                        performance, improving page load time by 40% and increasing user engagement metrics by 55% in testing.</p>
+                    <a href="https://github.com/Bhavanasri13/Villas"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Users/lakshmanbhavana/Downloads/Gemini_Generated_Image_movie.png" width="75%" height="70%">
+                <div class="layer">
+                    <h3> Movie Recommendation System</h3>
+                    <p> Built a collaborative filtering–based recommendation engine using Python and scikit-learn, handling 100k+ user–movie interactions. Achieved 89%
+                        precision in personalized recommendations and reduced response latency by 35% through model optimization. </p>
+                    <a href="https://github.com/Bhavanasri13/MovieRecommend.git"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Bhavanasri13" class="btn"> see more on github </a>
+    </div>
+  </div>
+        <!-- contact -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="content-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-regular fa-envelope"></i>bhavanasriharshitha123@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i>+8647657704</p>
+                            <div class="social-items">
+                                <a href="https://github.com/Bhavanasri13"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/sri-harshitha-bhavana/"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                           <a href="/Users/lakshmanbhavana/Desktop/Harshitha_resumee.pdf" download class="btn btn2">Download CV</a>
+
+
+                        </div>  
+                        
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright by Sri Harshitha Bhavana</p>
+                </div>
+            </div>
+        </div>
+     
+
+
+    <script>
+         var tablinks = document.getElementsByClassName("tab-links");
+         var tabcontents= document.getElementsByClassName("tab-contents");
+         function opentab(tabname)
+         {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right= "0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right= "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwL6S-5013tc1NWQc4p6rvdS-TWzM73vf-SCuA8Yi2PWDPl22T5Kl95YSY9jRFApZeX/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function()
+                {
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    
+</body>
+</html>
